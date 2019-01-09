@@ -1,12 +1,11 @@
 # Digitale
 
-## Projet réalisé lors du marathon web 2018 à l'Iut de Lens ( Groupe de 7 personnes )
+## Project realized during the 2018 web marathon at the Iut de Lens (Group of 7 people)
 
-Pour lancer l'application web :
+To launch the web application:
 * composer install
 * php artisan key:generate
 * php artisan migrate
 * php artisan serve
 
-Ne pas oublier de configurer le .env
-
+**Do not forget to configure the.env**
