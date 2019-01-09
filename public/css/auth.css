@@ -1,0 +1,105 @@
+/*#fond-login {
+    background-color: #66c1b4;
+}
+
+#oubli-mdp {
+    color: black;
+}
+
+.container {
+    height: 958px;
+    padding-top: 250px;
+}*/
+
+
+.login {
+    background: #2B2D42;
+    border-radius: 4px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 200px;
+}
+.login_inner {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.login_inner__avatar {
+    background: url(https://cdn1.iconfinder.com/data/icons/user-pictures/100/unknown-512.png);
+    background-size: cover;
+    border: 3px solid #EDF2F4;
+    width: 4em;
+    height: 4em;
+    margin: 0 auto;
+    -webkit-transform: translateY(-35px);
+    transform: translateY(-35px);
+    border-radius: 100%;
+}
+
+
+.login_inner input, label, #rememberbtn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #33354e;
+    width: 100%;
+    padding: 1.1em;
+    color: #FFF;
+    outline: none;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.login_inner input:last-of-type {
+    border-bottom: none;
+}
+
+.login_inner input[type="submit"] {
+    background: #4ECDC4;
+    cursor: pointer;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+    margin: 3em auto 0 auto;
+}
+
+::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+:-moz-placeholder {
+    color: #FFF;
+}
+
+::-moz-placeholder {
+    color: #FFF;
+}
+
+:-ms-input-placeholder {
+    color: #FFF;
+}
+
+::-ms-input-placeholder {
+    color: #FFF;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+.invalid-feedback {
+    color: white;
+    font-family: "source sans pro";
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}

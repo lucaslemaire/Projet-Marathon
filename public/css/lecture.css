@@ -1,0 +1,65 @@
+#lecture {
+    display: flex;
+    height: auto;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "source sans pro";
+    background-color: #66c1b4;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#lecture p:nth-child(1) {
+    font-family: "bignoodle titling";
+    font-size: 70px;
+    border-bottom: none;
+    padding: 0;
+    line-height: 60px;
+}
+
+#lecture p {
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+#lecture a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: color .3s ease-in-out;
+    width: 200px;
+    margin: auto;
+}
+
+#lecture a:hover {
+    color: #0000F0;
+}
+
+#lecture div {
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+}
+
+@media screen and (max-width: 960px){
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    #lecture p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    #lecture p {
+        font-size: 15px;
+    }
+}
