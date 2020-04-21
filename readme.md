@@ -1,13 +1,12 @@
 # Digitale
 
-## Project realized during the 2018 web marathon ( 48hours ) at Lens Iut (group of 7 people)
+## Projet réalisé lors du marathon web 2018 à l'Iut de Lens ( Groupe de 7 personnes )
 
-The project is an interactive history site. The user's choices during the story will bring him to different ends.
-
-To launch the web application:
+Pour lancer l'application web :
 * composer install
 * php artisan key:generate
 * php artisan migrate
 * php artisan serve
 
-**Do not forget to configure the.env**
+Ne pas oublier de configurer le .env
+
